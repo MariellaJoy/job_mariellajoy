@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.bar{
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #7c826b;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 15px;
+    background-color: white;
+    text-shadow: #9a9891;
+}
