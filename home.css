@@ -87,3 +87,10 @@ h1{
 span{
     color: #7c826b;
 }
+.content{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
