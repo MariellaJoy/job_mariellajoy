@@ -53,3 +53,9 @@ nav ul li a:after{
     bottom: -10px;
     transition: 0.3s;
 }
+nav ul li a:hover{
+    color: #7c826b;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
