@@ -103,3 +103,11 @@ h2{
 span1{
     font-weight: bold;
 }
+.About img{
+    height: auto;
+    width: 350px;
+    transition: transform 0.4s;
+}
+.About img:hover{
+    transform: scale(1.1);
+}
