@@ -122,3 +122,38 @@ span1{
     margin-bottom: 20px;
     cursor: pointer;
 }
+.second{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.about-text p1{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button{
+    background-color: #ede6c4;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 20px;
+    transition: 0.4s;
+    font-size: 12px;
+}
+.button:hover{
+    color: #9a9891;
+    transition: scale(1.2);
+    border-color: #9a9891;
+    background: transparent;
+    cursor: pointer;
+}
