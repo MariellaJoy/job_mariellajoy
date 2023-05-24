@@ -94,7 +94,7 @@ span{
     transform: translateY(-50%);
     cursor: pointer;
 }
-h2{
+.h2{
     color: whitesmoke;
     margin: 20px 0px 20px;
     font-size: 50px;
