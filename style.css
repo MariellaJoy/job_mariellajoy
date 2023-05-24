@@ -94,19 +94,19 @@ span{
     transform: translateY(-50%);
     cursor: pointer;
 }
-.h2{
+h2{
     color: whitesmoke;
     margin: 20px 0px 20px;
     font-size: 50px;
     cursor: pointer;
 }
-.p{
+p{
     color: whitesmoke;
     font-size: 15px;
     margin-bottom: 3px;
     cursor: pointer;
 }
-.span1{
+span1{
     font-weight: bold;
 }
 .About{
