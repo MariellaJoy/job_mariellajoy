@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 .bar{
-    height: 90vh;
+    height: 150vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -80,4 +80,129 @@ nav ul li a:hover:after{
     background: transparent;
     border-color: #ede6c4;
     cursor: pointer;
+}
+section{
+    padding: 40px 15%;
+}
+.contact{
+    background: #ede6c4;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat (2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+.contact-form h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+span{
+    color: #9a9891;
+}
+.contact-form p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 2.8rem;
+    text-align: center;
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form form .btn2{
+    display: inline-block;
+    background: #9a9891;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn2:hover{
+    background-color: #9a9891;
+    color: #9a9891;
+    background: transparent;
+    border-color: black;
+    cursor: pointer;
+}
+@media (max-width: 1570px){
+    section{
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    .contact-form h1{
+        font-size: 60px;
+    }
+    .contact-form p{
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 1090px){
+    .contact{
+        grid-gap: 2rem;
+        transition: .3s;
+    }
+}
+@media (max-width: 1000px){
+    .contact{
+        grid-template-columns: 1fr;
+    }
+    .contact-form{
+        order: 2;
+    }
+}
+footer{
+    position: relative;
+    background-color: #ede6c4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: #ede6c4;
+}
+footer h8{
+    background-color: #ede6c4;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ede6c4;
+}
+footer p3:nth-child(1){
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #ede6c4;
+}
+footer p3:nth-child(2){
+    color: black;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #ede6c4;
 }
