@@ -76,41 +76,41 @@ main ul li a:hover:after{
     border-color: #ede6c4;
     cursor: pointer;
 }
-.resume-page{
-    width: 100%;
-    height: 200vh;
-    background: #ede6c4;
-    font-size: 14px;
-    line-height: 22px;
-    color: #555555;
-}
-.resume{
-    width: 800px;
-    height: auto;
+.skill-container{
+    min-height: 40vh;
     display: flex;
-    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    background: white;
 }
-.resume .resume_left{
-    width: 280px;
-    background: #7c826b;
-}
-.resume .resume_left .resume_profile{
+.skills{
     width: 100%;
-    height: 280px;
+    max-width: 600px;
+    padding: 0 40px;
+
 }
-.resume .resume_left .resume_profile img{
-    width: 100%;
-    height: 100%;
-}
-.resume .resume_left .resume-content{
-    padding: 0 25px;
-}
-.p2{
+.skill-name{
+    font-size: 14px;
     font-weight: 700;
-    font-size: 20px;
+    color: rgb(23, 22, 22);
     text-transform: uppercase;
+    margin: 10px 0;
 }
-.p3{
-    font-weight: 500;
-    font-size: 16px;
+.skill-percent{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.skill-bar{
+    height: 14px;
+    background: whitesmoke;
+    border-radius: 3px;
+}
+.skill-per{
+    height: 14px;
+    background-color: #9a9891;
+    border-radius: 3px;
+    position: relative;
 }
